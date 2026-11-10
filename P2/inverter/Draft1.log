@@ -1,13 +1,13 @@
 LTspice 26.0.2 for MacOS
 Circuit: /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/inverter/Draft1.net
-Start Time: Tue Nov 10 09:37:39 2026
+Start Time: Tue Nov 10 12:03:46 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.222 seconds.
+Total elapsed time: 0.736 seconds.
 
 Files loaded:
 /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/inverter/Draft1.net
