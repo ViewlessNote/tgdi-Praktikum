@@ -1,6 +1,6 @@
 LTspice 26.0.2 for MacOS
 Circuit: /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/mosfet/pmos/mosfet_lampe_pmos.net
-Start Time: Mon Nov  9 22:27:13 2026
+Start Time: Tue Nov 10 09:39:00 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -11,7 +11,7 @@ Y:\Documents\tgdi-Praktikum\P2\mosfet\pmos\mosfet_lampe_pmos.net(6): WARNING: Sp
 V1 A 0 PULSE(0 5 0 0.1 0.1 2 2)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.210 seconds.
+Total elapsed time: 0.213 seconds.
 
 Files loaded:
 /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/mosfet/pmos/mosfet_lampe_pmos.net

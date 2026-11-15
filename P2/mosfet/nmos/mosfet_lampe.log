@@ -1,13 +1,13 @@
 LTspice 26.0.2 for MacOS
 Circuit: /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/mosfet/nmos/mosfet_lampe.net
-Start Time: Mon Nov  9 22:37:11 2026
+Start Time: Tue Nov 10 09:38:07 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.149 seconds.
+Total elapsed time: 0.211 seconds.
 
 Files loaded:
 /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P2/mosfet/nmos/mosfet_lampe.net
