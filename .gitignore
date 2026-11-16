@@ -1,0 +1,7 @@
+# LTspice: wird bei jedem Simulationslauf neu erzeugt
+*.raw
+*.log
+*.net
+
+# macOS
+.DS_Store
