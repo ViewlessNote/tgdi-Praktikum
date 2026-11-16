@@ -1,25 +1,13 @@
 LTspice 26.0.2 for MacOS
 Circuit: /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P3/P3.net
-Start Time: Sun Nov 15 20:11:36 2026
+Start Time: Mon Nov 16 09:23:33 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
-Y:\Documents\tgdi-Praktikum\P3\P3.net(4): WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton. Increasing period to 4e+06.
-
-V§X1 x1 0 PULSE(0 5 4m 1n 1n 3999999 8m)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Y:\Documents\tgdi-Praktikum\P3\P3.net(5): WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton. Increasing period to 2e+06.
-
-V§X2 x2 0 PULSE(0 5 2m 1n 1n 1999999 4m)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Y:\Documents\tgdi-Praktikum\P3\P3.net(6): WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton. Increasing period to 999999.
-
-V§X3 x3 0 PULSE(0 5 1m 1n 1n 999999 2m)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.596 seconds.
+Total elapsed time: 0.265 seconds.
 
 Files loaded:
 /Users/jonasfeldhaus/Documents/tgdi-Praktikum/P3/P3.net
