@@ -11,7 +11,8 @@ LTspice-Schaltungen und Simulationsergebnisse zum Praktikum *Technische Grundlag
 | `P2/inverter` | `Draft1.asc` | CMOS-Inverter aus einem PMOS und einem NMOS |
 | `P2/nand` | `nand.asc` | CMOS-NAND mit zwei Eingängen (2 PMOS parallel, 2 NMOS in Reihe) |
 | `P3` | `P3.asc` | Schaltnetz mit 4 Eingängen und 4 Ausgängen aus 74HCT-Gattern |
-| `P3/74HCT`, `sym/EXTRA/74HCT` | `74hct.lib`, `*.asy` | 74HCT-Modellbibliothek und Symbole für LTspice |
+| `P3/74HCT` | `*.asy` | 74HCT-Symbole für LTspice (Fremdmaterial, siehe [Hinweis](#hinweis-zur-74hct-bibliothek)) |
+| `sym/EXTRA/74HCT` | `74hct.lib` | 74HCT-Modellbibliothek für LTspice (Fremdmaterial, siehe [Hinweis](#hinweis-zur-74hct-bibliothek)) |
 
 ## Praktikum 2 – MOSFETs und CMOS-Gatter
 
@@ -68,6 +69,8 @@ Verwendete Bausteine:
 ### Hinweis zur 74HCT-Bibliothek
 
 `P3.asc` bindet die Symbole relativ zum eigenen Ordner ein (`P3/74HCT/*.asy`). Die Symbole verweisen auf die Modelldatei unter `sym/EXTRA/74HCT/74hct.lib` (relativ zum Schaltplan: `../sym/EXTRA/74HCT/74hct.lib`). Die Ordnerstruktur des Repositories muss daher erhalten bleiben, damit P3 ohne globale Installation der Bibliothek simuliert.
+
+**Herkunft:** Die Modellbibliothek `74hct.lib` (Revision 0.57 vom 04.02.2005) und die zugehörigen Symbole (`*.asy`) stammen nicht von mir. Es handelt sich um die 74HCT-Bibliothek von Helmut Sennewald aus dem Dateibereich der LTspice-Nutzergruppe (früher Yahoo, heute [groups.io/g/LTspice](https://groups.io/g/LTspice), *Files > z_yahoo > Lib > Digital 74HCTxxx*). Sie liegt hier bei, damit P3 direkt simuliert werden kann; alle Rechte daran verbleiben beim Autor.
 
 ## Dateitypen
 
